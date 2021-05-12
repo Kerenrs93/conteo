@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://recetaland.com/wp-content/uploads/2020/03/42.-queque-de-cumplean%CC%83os-1200x900.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: red;
+}
+
+.contenedor {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteo {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 30px;
+}
+h2 {
+  font-size: 15px;
+}
+
+#diasTexto,
+#horasTexto,
+#minutosTexto,
+#segundosTexto {
+  font-size: 30px;
+}
